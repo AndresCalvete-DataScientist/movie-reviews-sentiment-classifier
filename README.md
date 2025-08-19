@@ -2,7 +2,7 @@
 
 ### 📌 Introducción
 
-Este proyecto forma parte del desarrollo de **Film Junky Union**, una comunidad para aficionados al cine clásico. El objetivo es entrenar un modelo de machine learning capaz de **detectar automáticamente críticas negativas en reseñas de películas**, utilizando datos de IMDB.  
+Este proyecto forma parte del desarrollo de Film Junky Union, una comunidad para aficionados al cine clásico. El objetivo es entrenar un modelo de machine learning capaz de **detectar automáticamente críticas negativas en reseñas de películas**, utilizando datos de IMDB.  
 
 El reto consiste en construir un clasificador de sentimientos que distinga entre reseñas positivas y negativas, alcanzando un **F1-score mínimo de 0.85**.
 
@@ -45,8 +45,22 @@ Este proyecto refleja competencias clave en **procesamiento de lenguaje natural 
 ### ✅ Resultados y conclusiones
 
 - Se entrenaron y compararon varios modelos de clasificación de texto.  
-- El modelo seleccionado fue el modelo 1 (NLTK, TF-IDF y LR) con un valor de **F1 de 0.88**, cumpliendo con el objetivo establecido.  
+- El modelo seleccionado fue el modelo 1 (NLTK, TF-IDF y LR) con un valor de **F1 de 0.88**, cumpliendo con el objetivo establecido.
+![image](https://raw.githubusercontent.com/AndresCalvete-DataScientist/movie-reviews-sentiment-classifier/main/images/model-1-performance-summary.png)  
 - Se recomendo evaluar el modelo 4 (BERT y LightGBM) haciendo uso de más datos en un ambiente con GPU.
+
+---
+
+### 📄 Jupyter Notebook
+
+El cuaderno interactivo contiene todo el flujo de trabajo del proyecto:
+- Carga y preprocesamiento de datos de reseñas.
+- Análisis exploratorio (EDA) con visualizaciones.
+- Construcción de modelos paso a paso.
+- Evaluación con métricas ajustadas al contexto.
+- Discusión de resultados y conclusiones.  
+
+🔗 Ver notebook completo en GitHub → [movie-reviews-sentiment-classifier](https://github.com/AndresCalvete-DataScientist/movie-reviews-sentiment-classifier/blob/main/movie-reviews-sentiment-classifier.ipynb)
 
 ---
 
